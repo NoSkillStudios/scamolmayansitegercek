@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özel Teklif - Ücretsiz Havanızı Alın!</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ffdddd;
+            color: #222;
+            text-align: center;
+            padding: 2rem;
+        }
+        .container {
+            border: 5px dashed red;
+            background-color: #fff3f3;
+            padding: 2rem;
+            margin: 2rem auto;
+            width: 80%;
+            box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 3rem;
+            color: darkred;
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        .offer {
+            font-size: 2rem;
+            margin: 2rem 0;
+        }
+        .button {
+            background-color: yellow;
+            border: 2px solid orange;
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0px 5px 0px orange;
+        }
+        .button:hover {
+            background-color: gold;
+        }
+        .disclaimer {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 ÖMÜR BOYU Ücretsiz Hava Kazandınız! 🎉</h1>
+        <p class="offer">Hemen ödülünüzü almak için aşağıdaki butona tıklayın!</p>
+        <button class="button" onclick="alert('Şaka yaptım! 😂')">ŞİMDİ AL!</button>
+        <div class="disclaimer">
+            <p>*Bu bir şakadır. Lütfen gerçekten hava almaya çalışmayın.</p>
+        </div>
+    </div>
+</body>
+</html>
